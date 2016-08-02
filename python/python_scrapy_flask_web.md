@@ -8,5 +8,8 @@
 * flask
 * sqlite
 
-1. scrapy 爬内容
+## scrapy 爬内容
+1. scrapy 安装
+
+
 
