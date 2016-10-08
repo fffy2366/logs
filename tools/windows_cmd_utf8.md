@@ -22,9 +22,12 @@ chcp 65001
 type filename.txt 
 
 4、通过以上操作并不能完全解决问题，因为显示出来的内容有可能不完全。可以先最小化，然后最大化命令行窗口，文件的内容就完整的显示出来了。
- 
 
 转自：http://www.cnblogs.com/QQParadise/articles/1685177.htm
+ 
+
+
+转成utf-8 运行python遇到以下问题：
 
 # python交互模式下cp65001异常
 unknown encoding: cp65001异常
