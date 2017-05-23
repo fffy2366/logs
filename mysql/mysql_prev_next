@@ -1,0 +1,7 @@
+# mysql 针对按日期和id排序列表的上一篇 下一篇实现
+
+## 上一篇 
+select * from test where id> 100 and created_at>='2016-09-25 00:00:00' order by created_at asc,id asc limit 1
+
+## 下一篇
+select * from test where id< 100 and created_at<='2016-09-25 00:00:00' order by created_at desc,id desc limit 1
